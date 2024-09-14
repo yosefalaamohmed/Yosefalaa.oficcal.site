@@ -3,35 +3,658 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>موقعي البسيط</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>موقعي الطويل</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        section {
+            margin: 2rem 0;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>مرحباً بكم في موقعي</h1>
-        <nav>
-            <ul>
-                <li><a href="#">الرئيسية</a></li>
-                <li><a href="#">عن الموقع</a></li>
-                <li><a href="#">اتصل بنا</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>مرحبا بكم في موقعي</h1>
+            <nav>
+                <ul>
+                    <li><a href="#section1">القسم 1</a></li>
+                    <li><a href="#section2">القسم 2</a></li>
+                    <li><a href="#section3">القسم 3</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    
-    <main>
-        <section>
-            <h2>عنوان القسم</h2>
-            <p>هذا نص تجريبي في القسم.</p>
+
+    <div class="container">
+        <section id="section1">
+            <h2>القسم الأول</h2>
+            <p>هذا هو القسم الأول من موقعك. يمكنك إضافة أي محتوى تريده هنا. على سبيل المثال، يمكنك إدراج نصوص، صور، أو روابط.</p>
+            <p>يمكنك أيضاً إضافة مزيد من الفقرات لتوسيع هذا القسم حسب حاجتك.</p>
         </section>
-        
-        <section>
-            <h2>عنوان آخر</h2>
-            <p>نص تجريبي آخر في قسم مختلف.</p>
+
+        <section id="section2">
+            <h2>القسم الثاني</h2>
+            <p>في هذا القسم، يمكنك تقديم معلومات إضافية. على سبيل المثال، يمكن أن يكون هذا القسم مخصصاً للأخبار أو المقالات.</p>
+            <p>يمكنك أيضاً تضمين وسائل الإعلام مثل الصور والفيديوهات لجعل هذا القسم أكثر تفاعلاً وجاذبية.</p>
         </section>
-    </main>
-    
+
+        <section id="section3">
+            <h2>القسم الثالث</h2>
+            <p>هنا يمكنك وضع تفاصيل التواصل أو المعلومات الختامية لموقعك. تأكد من توفير معلومات حول كيفية التواصل معك أو كيفية التفاعل مع المحتوى.</p>
+            <p>يمكنك أيضاً إضافة نموذج للتواصل أو روابط لصفحات التواصل الاجتماعي الخاصة بك.</p>
+        </section>
+    </div>
+
     <footer>
-        <p>جميع الحقوق محفوظة © 2024</p>
+        <p>&copy; 2024 موقعي الطويل. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي الطويل</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            background: #fff;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        section {
+            margin: 2rem 0;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .image-gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+        .form-container {
+            margin: 2rem 0;
+        }
+        .form-container form {
+            display: flex;
+            flex-direction: column;
+        }
+        .form-container input, .form-container textarea {
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .form-container button {
+            padding: 0.5rem;
+            background: #333;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .form-container button:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>مرحبا بكم في موقعي</h1>
+            <nav>
+                <ul>
+                    <li><a href="#section1">القسم 1</a></li>
+                    <li><a href="#section2">القسم 2</a></li>
+                    <li><a href="#section3">القسم 3</a></li>
+                    <li><a href="#gallery">معرض الصور</a></li>
+                    <li><a href="#contact">اتصل بنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="section1">
+            <h2>القسم الأول</h2>
+            <p>هذا هو القسم الأول من موقعك. يمكنك إضافة أي محتوى تريده هنا. على سبيل المثال، يمكنك إدراج نصوص، صور، أو روابط.</p>
+            <p>يمكنك أيضاً إضافة مزيد من الفقرات لتوسيع هذا القسم حسب حاجتك.</p>
+        </section>
+
+        <section id="section2">
+            <h2>القسم الثاني</h2>
+            <p>في هذا القسم، يمكنك تقديم معلومات إضافية. على سبيل المثال، يمكن أن يكون هذا القسم مخصصاً للأخبار أو المقالات.</p>
+            <p>يمكنك أيضاً تضمين وسائل الإعلام مثل الصور والفيديوهات لجعل هذا القسم أكثر تفاعلاً وجاذبية.</p>
+        </section>
+
+        <section id="section3">
+            <h2>القسم الثالث</h2>
+            <p>هنا يمكنك وضع تفاصيل التواصل أو المعلومات الختامية لموقعك. تأكد من توفير معلومات حول كيفية التواصل معك أو كيفية التفاعل مع المحتوى.</p>
+            <p>يمكنك أيضاً إضافة نموذج للتواصل أو روابط لصفحات التواصل الاجتماعي الخاصة بك.</p>
+        </section>
+
+        <section id="gallery">
+            <h2>معرض الصور</h2>
+            <div class="image-gallery">
+                <img src="https://via.placeholder.com/800x400" alt="صورة 1">
+                <img src="https://via.placeholder.com/800x400" alt="صورة 2">
+                <img src="https://via.placeholder.com/800x400" alt="صورة 3">
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>اتصل بنا</h2>
+            <div class="form-container">
+                <form action="#" method="post">
+                    <label for="name">الاسم:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">البريد الإلكتروني:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">الرسالة:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">إرسال</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 موقعي الطويل. جميع الحقوق محفوظة.</p>
+    </footer>
+</body><!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي الطويل</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            background: #fff;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        section {
+            margin: 2rem 0;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .image-gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+        .form-container {
+            margin: 2rem 0;
+        }
+        .form-container form {
+            display: flex;
+            flex-direction: column;
+        }
+        .form-container input, .form-container textarea {
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .form-container button {
+            padding: 0.5rem;
+            background: #333;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .form-container button:hover {
+            background: #555;
+        }
+        .faq-item {
+            margin-bottom: 1rem;
+        }
+        .faq-item h3 {
+            margin: 0;
+        }
+        .review-item {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>مرحبا بكم في موقعي</h1>
+            <nav>
+                <ul>
+                    <li><a href="#section1">القسم 1</a></li>
+                    <li><a href="#section2">القسم 2</a></li>
+                    <li><a href="#section3">القسم 3</a></li>
+                    <li><a href="#gallery">معرض الصور</a></li>
+                    <li><a href="#contact">اتصل بنا</a></li>
+                    <li><a href="#about">عن الشركة</a></li>
+                    <li><a href="#faq">الأسئلة الشائعة</a></li>
+                    <li><a href="#reviews">المراجعات</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="section1">
+            <h2>القسم الأول</h2>
+            <p>هذا هو القسم الأول من موقعك. يمكنك إضافة أي محتوى تريده هنا. على سبيل المثال، يمكنك إدراج نصوص، صور، أو روابط.</p>
+            <p>يمكنك أيضاً إضافة مزيد من الفقرات لتوسيع هذا القسم حسب حاجتك.</p>
+        </section>
+
+        <section id="section2">
+            <h2>القسم الثاني</h2>
+            <p>في هذا القسم، يمكنك تقديم معلومات إضافية. على سبيل المثال، يمكن أن يكون هذا القسم مخصصاً للأخبار أو المقالات.</p>
+            <p>يمكنك أيضاً تضمين وسائل الإعلام مثل الصور والفيديوهات لجعل هذا القسم أكثر تفاعلاً وجاذبية.</p>
+        </section>
+
+        <section id="section3">
+            <h2>القسم الثالث</h2>
+            <p>هنا يمكنك وضع تفاصيل التواصل أو المعلومات الختامية لموقعك. تأكد من توفير معلومات حول كيفية التواصل معك أو كيفية التفاعل مع المحتوى.</p>
+            <p>يمكنك أيضاً إضافة نموذج للتواصل أو روابط لصفحات التواصل الاجتماعي الخاصة بك.</p>
+        </section>
+
+        <section id="gallery">
+            <h2>معرض الصور</h2>
+            <div class="image-gallery">
+                <img src="https://via.placeholder.com/800x400" alt="صورة 1">
+                <img src="https://via.placeholder.com/800x400" alt="صورة 2">
+                <img src="https://via.placeholder.com/800x400" alt="صورة 3">
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>اتصل بنا</h2>
+            <div class="form-container">
+                <form action="#" method="post">
+                    <label for="name">الاسم:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">البريد الإلكتروني:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">الرسالة:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">إرسال</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>عن الشركة</h2>
+            <p>هنا يمكنك إضافة معلومات حول شركتك أو عن الموقع نفسه. قدم تاريخ شركتك، رؤيتك، وما يجعلك مميزاً في السوق.</p>
+            <p>يمكنك أيضاً ذكر فريق العمل أو الأشخاص الرئيسيين في الشركة.</p>
+        </section>
+
+        <section id="faq">
+            <h2>الأسئلة الشائعة</h2>
+            <div class="faq-item">
+                <h3>سؤال 1: كيف يمكنني التسجيل في الموقع؟</h3>
+                <p>للقيام بالتسجيل، يرجى الذهاب إلى صفحة التسجيل وملء المعلومات المطلوبة. سنرسل لك رسالة تأكيد عبر البريد الإلكتروني.</p>
+            </div>
+            <div class="faq-item">
+                <h3>سؤال 2: هل يمكنني تعديل معلوماتي الشخصية بعد التسجيل؟</h3>
+                <p>نعم، يمكنك تعديل معلوماتك الشخصية من خلال الدخول إلى حسابك والذهاب إلى صفحة الإعدادات.</p>
+            </div>
+            <div class="faq-item">
+                <h3>سؤال 3: ماذا أفعل إذا نسيت كلمة المرور؟</h3>
+                <p>يمكنك إعادة تعيين كلمة المرور من خلال النقر على رابط "نسيت كلمة المرور" في صفحة تسجيل الدخول.</p>
+            </div>
+        </section>
+
+        <section id="reviews">
+            <h2>المراجعات</h2>
+            <div class="review-item">
+                <h3>مراجعة 1</h3>
+                <p>هذا هو نص المراجعة الأولى. أكتب هنا تعليقك أو تجربتك مع المنتج أو الخدمة.</p>
+            </div>
+            <div class="review-item">
+                <h3>مراجعة 2</h3>
+                <p>هذا هو نص المراجعة الثانية. يمكنك تضمين تجارب المستخدمين الآخرين هنا.</p>
+            </div>
+            <div class="review-item">
+                <h3>مراجعة 3</h3>
+                <p>هنا يمكنك إضافة مراجعة أخرى أو تعليق من عملائك.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 موقعي الطويل. جميع الحقوق محفوظة.</p>
     </footer>
 </body>
 </html>
+</html><!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي الطويل</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            background: #fff;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        section {
+            margin: 2rem 0;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .image-gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+        .form-container {
+            margin: 2rem 0;
+        }
+        .form-container form {
+            display: flex;
+            flex-direction: column;
+        }
+        .form-container input, .form-container textarea {
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .form-container button {
+            padding: 0.5rem;
+            background: #333;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .form-container button:hover {
+            background: #555;
+        }
+        .faq-item, .review-item, .service-item, .event-item, .testimonial-item {
+            margin-bottom: 1rem;
+        }
+        .faq-item h3, .review-item h3, .service-item h3, .event-item h3, .testimonial-item h3 {
+            margin: 0;
+        }
+        .image-gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>مرحبا بكم في موقعي</h1>
+            <nav>
+                <ul>
+                    <li><a href="#section1">القسم 1</a></li>
+                    <li><a href="#section2">القسم 2</a></li>
+                    <li><a href="#section3">القسم 3</a></li>
+                    <li><a href="#gallery">معرض الصور</a></li>
+                    <li><a href="#contact">اتصل بنا</a></li>
+                    <li><a href="#about">عن الشركة</a></li>
+                    <li><a href="#faq">الأسئلة الشائعة</a></li>
+                    <li><a href="#reviews">المراجعات</a></li>
+                    <li><a href="#services">خدماتنا</a></li>
+                    <li><a href="#events">الأحداث</a></li>
+                    <li><a href="#testimonials">الشهادات</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="section1">
+            <h2>القسم الأول</h2>
+            <p>هذا هو القسم الأول من موقعك. يمكنك إضافة أي محتوى تريده هنا. على سبيل المثال، يمكنك إدراج نصوص، صور، أو روابط.</p>
+            <p>يمكنك أيضاً إضافة مزيد من الفقرات لتوسيع هذا القسم حسب حاجتك.</p>
+        </section>
+
+        <section id="section2">
+            <h2>القسم الثاني</h2>
+            <p>في هذا القسم، يمكنك تقديم معلومات إضافية. على سبيل المثال، يمكن أن يكون هذا القسم مخصصاً للأخبار أو المقالات.</p>
+            <p>يمكنك أيضاً تضمين وسائل الإعلام مثل الصور والفيديوهات لجعل هذا القسم أكثر تفاعلاً وجاذبية.</p>
+        </section>
+
+        <section id="section3">
+            <h2>القسم الثالث</h2>
+            <p>هنا يمكنك وضع تفاصيل التواصل أو المعلومات الختامية لموقعك. تأكد من توفير معلومات حول كيفية التواصل معك أو كيفية التفاعل مع المحتوى.</p>
+            <p>يمكنك أيضاً إضافة نموذج للتواصل أو روابط لصفحات التواصل الاجتماعي الخاصة بك.</p>
+        </section>
+
+        <section id="gallery">
+            <h2>معرض الصور</h2>
+            <div class="image-gallery">
+                <img src="https://via.placeholder.com/800x400" alt="صورة 1">
+                <img src="https://via.placeholder.com/800x400" alt="صورة 2">
+                <img src="https://via.placeholder.com/800x400" alt="صورة 3">
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>اتصل بنا</h2>
+            <div class="form-container">
+                <form action="#" method="post">
+                    <label for="name">الاسم:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">البريد الإلكتروني:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">الرسالة:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">إرسال</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>عن الشركة</h2>
+            <p>هنا يمكنك إضافة معلومات حول شركتك أو عن الموقع نفسه. قدم تاريخ شركتك، رؤيتك، وما يجعلك مميزاً في السوق.</p>
+            <p>يمكنك أيضاً ذكر فريق العمل أو الأشخاص الرئيسيين في الشركة.</p>
+        </section>
+
+        <section id="faq">
+            <h2>الأسئلة الشائعة</h2>
+            <div class="faq-item">
+                <h3>سؤال 1: كيف يمكنني التسجيل في الموقع؟</h3>
+                <p>للقيام بالتسجيل، يرجى الذهاب إلى صفحة التسجيل وملء المعلومات المطلوبة. سنرسل لك رسالة تأكيد عبر البريد الإلكتروني.</p>
+            </div>
+            <div class="faq-item">
+                <h3>سؤال 2: هل يمكنني تعديل معلوماتي الشخصية بعد التسجيل؟</h3>
+                <p>نعم، يمكنك تعديل معلوماتك الشخصية من خلال الدخول إلى حسابك والذهاب إلى صفحة الإعدادات.</p>
+            </div>
+            <div class="faq-item">
+                <h3>سؤال 3: ماذا أفعل إذا نسيت كلمة المرور؟</h3>
+                <p>يمكنك إعادة تعيين كلمة المرور من خلال النقر على رابط "نسيت كلمة المرور" في صفحة تسجيل الدخول.</p>
+            </div>
+        </section>
+
+        <section id="reviews">
+            <h2>المراجعات</h2>
+            <div class="review-item">
+                <h3>مراجعة 1</h3>
+                <p>هذا هو نص المراجعة الأولى. أكتب هنا تعليقك أو تجربتك مع المنتج أو الخدمة.</p>
+            </div>
+            <div class="review-item">
+                <h3>مراجعة 2</h3>
+                <p>هذا هو نص المراجعة الثانية. يمكنك تضمين تجارب المستخدمين الآخرين هنا.</p>
+            </div>
+            <div class="review-item">
+                <h3>مراجعة 3</h3>
+                <p>هنا يمكنك إضافة مراجعة أخرى أو تعليق من عملائك.</p>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>خدماتنا</h2>
+            <div class="service-item">
+                <h3>الخدمة 1</h3>
+                <p>وصف الخدمة الأولى. اشرح كيف يمكن لهذه الخدمة أن تفيد عملائك وما الذي يجعلها مميزة.</p>
+            </div>
+            <div class="service-item">
+                <h3>الخدمة 2</h3>
+                <p>وصف الخدمة الثانية. قدم تفاصيل حول كيفية تقديم هذه الخدمة وكيف يمكن للعميل الاستفادة منها.</p>
+            </div>
+            <div class="service-item">
+                <h3>الخدمة 3</
